@@ -1,4 +1,20 @@
-container {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.container {
     padding-top: 60px;
     padding-bottom: 30px;
+}
+
+#carouselExampleIndicators img{
+    width: 100;
+    height: calc(100vh - 56px);
+    object-fit: cover;
 }
